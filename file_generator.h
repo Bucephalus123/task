@@ -3,6 +3,9 @@
 
 #include <string>
 
+// Функция для удаления директории
+void clear_directory(const std::string& directory);
+
 // Функция для создания директории
 void create_directory(const std::string& directory);
 
